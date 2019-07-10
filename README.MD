@@ -37,7 +37,10 @@ _While working with the accomodation geo coordinates you found that they are rep
 
 _Please provide a solution to transform it into WGS 84 usual system (degrees)._
 
-The solution is to convert milliseconds to degrees (by dividing by 3600000). The code example is in `tabirai.pipelines.to_degrees`
+The solution is to convert milliseconds to degrees (by dividing by 3600000). The code example is in `tabirai.pipelines.to_degrees`.
+These coordinates translate to:
+
+`x = 139.73264694444444` `y = 35.65728111111111`
 
 ## 4.
 _What is the best way to bypass any limitations to get publicly available content from the website (URL blocking, errors and etc)?_
